@@ -33,7 +33,7 @@ Product.init(
       default: 10,
       validate: {
         isNumeric: true
-      }
+      },
     },
     catergory_id: {
       type: DataTypes.INTEGER,
